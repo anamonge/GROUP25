@@ -20,6 +20,8 @@ namespace SafariBooks.Models
         public System.Data.Entity.DbSet<SafariBooks.Models.ReorderDetails> ReorderDetails { get; set; }
         public System.Data.Entity.DbSet<SafariBooks.Models.Reorders> Reorders { get; set; }
         public System.Data.Entity.DbSet<SafariBooks.Models.Review> Reviews { get; set; }
+        public System.Data.Entity.DbSet<SafariBooks.Models.Coupons> Coupons { get; set; }
+        public System.Data.Entity.DbSet<SafariBooks.Models.Discounts> Discounts { get; set; }
 
         public ApplicationDbContext()
             : base("MyDBConnection")
