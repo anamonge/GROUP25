@@ -112,3 +112,4 @@ C:\Users\Rubi\Documents\GitHub\GROUP25\SafariBooks\SafariBooks\obj\Debug\SafariB
 C:\Users\Rubi\Documents\GitHub\GROUP25\SafariBooks\SafariBooks\obj\Debug\SafariBooks.csproj.GenerateResource.Cache
 C:\Users\Rubi\Documents\GitHub\GROUP25\SafariBooks\SafariBooks\obj\Debug\SafariBooks.dll
 C:\Users\Rubi\Documents\GitHub\GROUP25\SafariBooks\SafariBooks\obj\Debug\SafariBooks.pdb
+C:\Users\Rubi\Documents\GitHub\GROUP25\SafariBooks\SafariBooks\obj\Debug\SafariBooks.Migrations.initials.resources

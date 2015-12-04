@@ -31,7 +31,7 @@ namespace SafariBooks.Models
         public decimal value { get; set; }
 
 
-        public virtual Book Books { get; set; }
+   
        
     }
 }

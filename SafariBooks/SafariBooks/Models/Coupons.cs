@@ -32,7 +32,7 @@ namespace SafariBooks.Models
         [Display(Name = "Coupon Value")]
         public decimal Couponvalue { get; set; }
 
-        public virtual Order order { get; set; }
+        public virtual List<Order>order { get; set; }
 
         
 

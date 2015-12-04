@@ -1,0 +1,48 @@
+﻿@model SafariBooks.Models.Coupons
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Coupons</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CouponTypes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CouponTypes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PromotionDetails)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PromotionDetails)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Couponvalue)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Couponvalue)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,42 @@
+﻿@model SafariBooks.Models.Coupons
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Coupons</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CouponTypes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CouponTypes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PromotionDetails)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PromotionDetails)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Couponvalue)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Couponvalue)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CouponsID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
