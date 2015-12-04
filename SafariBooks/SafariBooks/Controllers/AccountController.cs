@@ -78,7 +78,7 @@ namespace SafariBooks.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser() { UserName = model.UserName };
+                var user = new ApplicationUser() { Id = model.ID, Fname = model.FName, MInitial = model.MInitial, LName = model.LName, Email = model.Email, Phone = model.Phone, Address = model.Address, ZipCode = model.ZipCode, Password = model.Password, ConfirmPassword = model.ConfirmPassword  };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {

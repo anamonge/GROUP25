@@ -33,7 +33,7 @@ namespace SafariBooks.Models
         [Display(Name = "Phone Number")]
         [PhoneAttribute]
         //[RegularExpression(@"^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$", ErrorMessage = "Please enter a valid phone number.")]
-        public string Phone { get; set; }
+        public int Phone { get; set; }
 
         [Required]
         [Display(Name = "Street Address")]
